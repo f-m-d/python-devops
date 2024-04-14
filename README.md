@@ -11,6 +11,14 @@ Explain each component of the project are
 ### Colab Notebook
 * This is an example of how to use colab [colab](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
 ### Github Codespaces
+Building out a Python project scaffold:
+* Create a MakeFile
+* requirements.txt for Python
+* Test library to create (E.G. test_library.py)
+* Path where CLI and Containerized tool reference the same code: python_library
+* A Dockerfile
+* Command-Line Tool
+* Microservice
 ### AWS CloudShell
 ### AWS Cloud9
 
