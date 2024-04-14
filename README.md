@@ -7,10 +7,11 @@ From Zero to DevOpsHero Python
 
 ## Create a project scaffold
 Explain each component of the project are
-
 * Create development environment that is cloud-based:
+
 ### Colab Notebook
 * This is an example of how to use colab [colab](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
+
 ### Github Codespaces
 Building out a Python project scaffold:
 * Create a MakeFile
@@ -20,7 +21,17 @@ Building out a Python project scaffold:
 * A Dockerfile
 * Command-Line Tool
 * Microservice
+
+#### Getting started on Github Codespaces
+Essentialy is a space where you can edit and manage your repo online, it's like a dev box online
+
+Steps:
+* Go to your repo, "Code" --> "Codespaces" --> "Create a codespace" 
+* If asked, on bottom right, install Python add-ons (Python and Pylance)
+
+
 ### AWS CloudShell
+
 ### AWS Cloud9
 
 ## Command-lines tools
