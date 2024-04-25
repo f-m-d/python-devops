@@ -15,12 +15,18 @@ Explain each component of the project are
 ### Github Codespaces
 Building out a Python project scaffold:
 * Create a MakeFile
+    * touch Makefile   
 * requirements.txt for Python
+    * touch requirements.txt
 * Test library to create (E.G. test_library.py)
 * Path where CLI and Containerized tool reference the same code: python_library
 * A Dockerfile
 * Command-Line Tool
 * Microservice
+
+
+1. Create a Python Virtual Environment 
+
 
 #### Getting started on Github Codespaces
 Essentialy is a space where you can edit and manage your repo online, it's like a dev box online
