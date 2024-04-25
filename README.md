@@ -47,6 +47,7 @@ Steps:
 # Colab Notebook 
 https://colab.research.google.com/
 
+This is the colab link: [colab file](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
 * Create a new notebook (you can save a Copy on Github)
 * You can change runtime (CPU,TPU TensorFlow Processing Units, GPU etc.)
 * Use the Colab Notebooks in order to update and show the steps to be done
