@@ -8,6 +8,10 @@ From Zero to DevOpsHero Python
 ## Create a project scaffold
 Explain each component of the project are
 * Create development environment that is cloud-based:
+  * Colab Notebooks
+  * Github Codespaces
+  * AWS CloudShell
+  * AWS Cloud9 
 
 ### Colab Notebook
 * This is an example of how to use colab [colab](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
