@@ -9,16 +9,28 @@ From Zero to DevOpsHero Python
 Explain each component of the project are
 * Create development environment that is cloud-based:
   * Colab Notebooks
-  * Github Codespaces
+  * Github Codespaces and Python Scaffold
   * AWS CloudShell
   * AWS Cloud9 
 
-### Colab Notebook
-* This is an example of how to use colab [colab](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
+### Colab Notebook 
+https://colab.research.google.com/
 
-### Github Codespaces
+This is the colab link: [colab file](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
+* Create a new notebook (you can save a Copy on Github)
+* You can change runtime (CPU,TPU TensorFlow Processing Units, GPU etc.)
+* Use the Colab Notebooks in order to update and show the steps to be done
 
-Here the following Python Scaffold: 
+### Github Codespaces and Python
+
+#### Getting started on Github Codespaces
+Essentialy is a space where you can edit and manage your repo online, it's like a dev box online
+
+Steps:
+* Go to your repo, **"Code" --> "Codespaces" --> "Create a codespace"**
+* If asked, on bottom right, install Python add-ons (Python and Pylance)
+
+#### Python Scaffold
 
 |Scaffold|What is done to archieve it|
 | ----------- | ----------- |
@@ -37,15 +49,16 @@ Here the following Python Scaffold:
 
 
 
-#### Getting started on Github Codespaces
-Essentialy is a space where you can edit and manage your repo online, it's like a dev box online
 
-Steps:
-* Go to your repo, "Code" --> "Codespaces" --> "Create a codespace" 
-* If asked, on bottom right, install Python add-ons (Python and Pylance)
 
 
 ### AWS CloudShell
+We can start with login in AWS Management Console
+https://console.aws.amazon.com/
+
+Click on **"Sign in using root user email"** and sign in.
+
+
 
 ### AWS Cloud9
 
@@ -57,12 +70,3 @@ Steps:
 
 
 ## Containerzed Continuos Delivery
-
-
-# Colab Notebook 
-https://colab.research.google.com/
-
-This is the colab link: [colab file](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
-* Create a new notebook (you can save a Copy on Github)
-* You can change runtime (CPU,TPU TensorFlow Processing Units, GPU etc.)
-* Use the Colab Notebooks in order to update and show the steps to be done
