@@ -17,19 +17,24 @@ Explain each component of the project are
 * This is an example of how to use colab [colab](https://github.com/f-m-d/python-devops/blob/main/getting_started_python.ipynb)
 
 ### Github Codespaces
-Building out a Python project scaffold:
-* Create a MakeFile
-    * touch Makefile   
-* requirements.txt for Python
-    * touch requirements.txt
-* Test library to create (E.G. test_library.py)
+
+Here the following Python Scaffold: 
+
+|Scaffold|What is done to archieve it|
+| ----------- | ----------- |
+| Create a Jupiter Notebook | ```touch getting_started_python.ipynb```|
+| Create a Library Folder | ```mkdir devopslib; touch __ init.py __ ```|
+| Create Makefile | ```touch Makefile``` |
+| Creare requirements file for Python | ``` touch requirements.txt``` |
+| Create virtualenv for Python| ```virtualenv ~/.venv``` , then add in the .bashrc file the following line: ``` source ~/.venv/bin/activate```, verify with ```which python``` if is is the Python present in **.venv/bin** folder
+| Create test library | touch test_hello.py|
+
+
 * Path where CLI and Containerized tool reference the same code: python_library
 * A Dockerfile
 * Command-Line Tool
 * Microservice
 
-
-1. Create a Python Virtual Environment 
 
 
 #### Getting started on Github Codespaces
@@ -61,4 +66,3 @@ This is the colab link: [colab file](https://github.com/f-m-d/python-devops/blob
 * Create a new notebook (you can save a Copy on Github)
 * You can change runtime (CPU,TPU TensorFlow Processing Units, GPU etc.)
 * Use the Colab Notebooks in order to update and show the steps to be done
-
