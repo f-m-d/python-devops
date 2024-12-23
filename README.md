@@ -53,12 +53,14 @@ Steps:
 
 
 ### AWS CloudShell
-We can start with login in AWS Management Console
+* We can start with login in AWS Management Console
 https://console.aws.amazon.com/
 
-Click on **"Sign in using root user email"** and sign in.
+* Click on **"Sign in using root user email"** and sign in.
 
+* Click on **"CloudShell"** service
 
+* Clone this repo: ```git clone https://github.com/f-m-d/python-devops.git```
 
 ### AWS Cloud9
 
