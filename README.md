@@ -80,9 +80,11 @@ NB: remember to use tabs for space!
 Example Makefile can be found at this repo:
 https://github.com/noahgift/pytest-tips-tricks
 
+* Once the Makefile is compiled ("install:" part), go into working directory where Makefile is and run: ```make install```
+
 ### AWS Cloud9
 Go back to AWS home and click on **"AWS Cloud9"**: it is a development environment.
-  * (Spoiler: it seems that AWS Cloud9 is deprecated for new users since 25th June 2024!)*
+  * (Spoiler: it seems that AWS Cloud9 is deprecated for new users since 25th June 2024!)
 
 The steps done are:
   * SSH git clone: ```git@github.com:f-m-d/python-devops.git```
