@@ -1,3 +1,5 @@
 pylint
 pytest
 black
+# If you want so specify a version, try this:
+# black==24.10.0

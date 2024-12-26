@@ -95,6 +95,17 @@ The steps done are:
   * Try again  with SSH git clone: ```git@github.com:f-m-d/python-devops.git```
 
 
+
+## Github Actions
+Github allow to start operations with common Github operations as commit, push etc.
+Those action are called *"Actions"*: those are commonly used to build, test or deploy.
+
+Go to your Github repo -> "Actions":
+here suggested workflows appear.
+
+Click on **"Skip this and set up a workflow yourself"**.
+This will prompt to create a file inside the repository at: *.github/workflows/main.yml*
+
 ## Command-lines tools
 
 
@@ -102,4 +113,4 @@ The steps done are:
 ## Microservices
 
 
-## Containerzed Continuos Delivery
+## Containerized Continuos Delivery
