@@ -1,5 +1,6 @@
 pylint
 pytest
 black
+pytest-cov
 # If you want so specify a version, try this:
 # black==24.10.0
