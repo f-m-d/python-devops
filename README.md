@@ -106,6 +106,13 @@ here suggested workflows appear.
 Click on **"Skip this and set up a workflow yourself"**.
 This will prompt to create a file inside the repository at: *.github/workflows/main.yml*
 
+At the actual state, it will fail (lin tasks in Makefile are not implemented for now)
+
+If you go on the **Workflow execution -> click on the 3 dots on top right -> "Create status badge"** , it will give you a link where it shows people how the status of the CI-CD it is (put it in the README.md)
+
+Example:
+[![Test Multiple Python Versions](https://github.com/f-m-d/python-devops/actions/workflows/main.yml/badge.svg)](https://github.com/f-m-d/python-devops/actions/workflows/main.yml)
+
 ## Command-lines tools
 
 
