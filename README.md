@@ -123,6 +123,8 @@ Add a "lint" process in the Makefile (look the example in the "example_makefile"
 
 Then, test with ```"make lint"```.
 
+Add the "devopslib" folder to the linting command (it will test it too)
+
 ## Command-lines tools
 
 
