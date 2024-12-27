@@ -36,12 +36,12 @@ Steps:
 
 |Scaffold|What is done to archieve it|
 | ----------- | ----------- |
-| Create a Jupiter Notebook | ```touch getting_started_python.ipynb```|
-| Create a Library Folder | ```mkdir devopslib; touch __ init.py __ ```|
-| Create Makefile | ```touch Makefile``` |
-| Creare requirements file for Python | ``` touch requirements.txt``` |
-| Create virtualenv for Python| ```virtualenv ~/.venv``` , then add in the .bashrc file the following line: ``` source ~/.venv/bin/activate```, verify with ```which python``` if is is the Python present in **.venv/bin** folder
-| Create test library | touch test_hello.py|
+| **Create a Jupiter Notebook** | ```touch getting_started_python.ipynb```|
+| **Create a Library Folder** | ```mkdir devopslib; touch __ init.py __ ```|
+| **Create Makefile** | ```touch Makefile``` |
+| **Creare requirements file for Python** | ``` touch requirements.txt``` |
+| **Create virtualenv for Python** | ```virtualenv ~/.venv``` , then add in the .bashrc file the following line: ``` source ~/.venv/bin/activate```, verify with ```which python``` if is is the Python present in **.venv/bin** folder. You can always deactivate the virtual environment with ```deactivate``` command.
+| **Create test library** | ```touch test_hello.py``` |
 
 
 * Path where CLI and Containerized tool reference the same code: python_library
@@ -108,11 +108,20 @@ This will prompt to create a file inside the repository at: *.github/workflows/m
 
 At the actual state, it will fail (lin tasks in Makefile are not implemented for now)
 
-If you go on the **Workflow execution -> click on the 3 dots on top right -> "Create status badge"** , it will give you a link where it shows people how the status of the CI-CD it is (put it in the README.md)
+If you go on the **Workflow execution -> click on the 3 dots on top right -> "Create status badge"** , it will give you a link where it shows people how the status of the CI-CD it is (put it in the README.md, under the title commonly)
 
 Example:
 
 [![Test Multiple Python Versions](https://github.com/f-m-d/python-devops/actions/workflows/main.yml/badge.svg)](https://github.com/f-m-d/python-devops/actions/workflows/main.yml)
+
+It is better to add some library to test: we create **devopslib/randomfruit.py** with a function to choose random fruit
+
+Then we import that function in **hello.py** and print it.
+(We can run the hello.py file with: ```python hello.py```)
+
+Add a "lint" process in the Makefile (look the example in the "example_makefile" folder)
+
+Then, test with ```"make lint"```.
 
 ## Command-lines tools
 
