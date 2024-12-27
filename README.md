@@ -135,6 +135,7 @@ The problem is: we need to add a "coverage library" (for the --cov option) for d
 
 To do that, add "pytest-cov" to the requirements and run ```make install```
 
+Now, we rename the test file to "test_devopslib.py" and here we will use the asserts to test the functions.
 ## Command-lines tools
 
 
