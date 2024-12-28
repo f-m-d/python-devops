@@ -140,9 +140,11 @@ Now, we rename the test file to "test_devopslib.py" and here we will use the ass
 NWe can add the "test:" part in the Makefile.
 Example: ```python -m pytest -vvv --cov=devopslib test_*.py```
 
-### blacl
+### FORMAT (black)
 
 Now add the "format:" in Makefile (for using black)
+
+
 ## Command-lines tools
 
 
