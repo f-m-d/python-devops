@@ -12,5 +12,4 @@ test:
 format:
 	black *.py devopslib/*.py
 
-all:
-	install lint test format
+all: install lint test format
