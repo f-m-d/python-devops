@@ -9,4 +9,6 @@ lint:
 test:
 	python -m pytest -vvv --cov=devopslib test_*.py
 
+format:
+	black *.py
 		
