@@ -1,6 +1,6 @@
-pylint
-pytest
-black
-pytest-cov
+pylint==3.3.2
+pytest==8.3.4
+black==24.10.0
+pytest-cov==6.0.0
 # If you want so specify a version, try this:
 # black==24.10.0
