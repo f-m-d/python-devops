@@ -144,7 +144,12 @@ Example: ```python -m pytest -vvv --cov=devopslib test_*.py```
 
 Now add the "format:" in Makefile (for using black)
 
+### How to run the project
 
+Step 1. Create a virtualenv: python -m virtualenv ~./venv
+Step 2. Edit the .bashrc file and add the line: source ~/.venv/bin/activate
+Step 3. Clone the project
+Step 4. Run "make all"
 ## Command-lines tools
 
 
