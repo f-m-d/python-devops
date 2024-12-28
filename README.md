@@ -152,7 +152,12 @@ Step 3. Clone the project
 Step 4. Run "make all"
 ## Command-lines tools
 
+![cli-tool](https://github.com/user-attachments/assets/9a94c26c-8e2f-4a7f-94cb-ca26dcc78887)
 
+The command line tool is commonly made this way:
+1. The required input list and operations available of the functions are defined
+2. The function obtain inputs in order to operate (unit of work)
+3. The function returns a valuable information (variables, objects, errors etc.)
 
 ## Microservices
 
