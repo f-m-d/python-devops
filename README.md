@@ -151,7 +151,8 @@ Step 2. Edit the .bashrc file and add the line: source ~/.venv/bin/activate
 Step 3. Clone the project
 Step 4. Run "make all"
 ## Command-lines tools
-![cli-tools](https://github.com/user-attachments/assets/4c0e1793-e015-46fc-a25b-4f6ed76668ac)
+![cli-tool](https://github.com/user-attachments/assets/27f0d3b8-97c8-4b08-9d4e-65991959bc60)
+
 
 
 The command line tool is commonly made this way:
